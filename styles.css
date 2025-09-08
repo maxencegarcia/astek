@@ -1,0 +1,131 @@
+body {
+    font-family: 'source code pro', Calibri, serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #424558;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /*por les puce chiante */
+}
+
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav > ul > li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+    padding: 20px 30px;
+    transition: padding 0.3s ease;
+}
+
+nav > ul > li:hover {
+    padding: 15px 30px 20px 30px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);           /*couleur ecriture du haut*/
+    padding: 0;
+}
+
+.submenu {
+    display: none;
+}
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+.submenu li {
+    border-bottom: 1px solid #CCC;
+    list-style-type: none; /* enleve les puces de con*/
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;          
+    width: 270px;
+}
+
+.menu-html:hover {                                                        /*debut*/
+    border-top: 5px solid rgb(9, 187, 54)6;
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.menu-jesaispas:hover {
+    border-top: 5px solid rgb(9, 187, 54);
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.menu-achanger:hover {
+    border-top: 5px solid rgb(9, 187, 54);
+    background-color: rgba(220, 220, 220, 0.15);
+}
+
+.menu-contact:hover {
+    border-top: 5px solid rgb(9, 187, 54);
+    background-color: rgba(220, 220, 220, 0.15);
+}                                                                         /*fin barre du dessus*/
+
+.menu-html .submenu {
+    background-color: rgb(9, 187, 54);
+}
+
+.menu-jesaispas .submenu {
+    background-color: rgb(9, 187, 54);
+}
+
+.menu-achanger .submenu {
+    background-color: rgb(9, 187, 54);
+}
+
+.menu-contact .submenu {
+    background-color: rgb(9, 187, 54);
+}
+
+.submenu li:hover a {
+    color: #000000;                        /*ecriture du bas si je dis pas de la merde a verif mais normalement c'est ça*/
+    font-weight: bold;
+}
+
+.menu-html .submenu li:hover {
+    background-color: rgb(100, 250, 137);    /*couleur souris*/
+}
+
+.menu-jesaispas .submenu li:hover {
+    background-color: rgb(100, 250, 137);
+}
+
+.menu-achanger .submenu li:hover {
+    background-color: rgb(100, 250, 137);
+}
+
+.menu-contact .submenu li:hover {
+    background-color: rgb(100, 250, 137);
+}
+
+
+video{
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
