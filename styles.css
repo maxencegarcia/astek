@@ -25,19 +25,19 @@ nav > ul > li {
     float: left;
     position: relative;
     list-style-type: none;
-    padding: 20px 30px;
-    transition: padding 0.3s ease;
+    padding: 0;
 }
 
-nav > ul > li:hover {
+nav > ul > li:hover > a {
     padding: 15px 30px 20px 30px;
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);           /*couleur ecriture du haut*/
-    padding: 0;
+    padding: 20px 30px;
+    transition: padding 0.3s ease, background-color 0.15s ease; /* pour une transi moins sec*/
 }
 
 .submenu {
@@ -45,7 +45,7 @@ nav a {
 }
 
 nav li:hover .submenu {
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 100%;
     left: 0;
@@ -59,6 +59,7 @@ nav li:hover .submenu {
 }
 
 .submenu li a {
+    display: block;
     padding: 15px 30px;
     font-size: 13px;
     color: #222538;          
@@ -66,7 +67,7 @@ nav li:hover .submenu {
 }
 
 .menu-html:hover {                                                        /*debut*/
-    border-top: 5px solid rgb(9, 187, 54)6;
+    border-top: 5px solid rgb(9, 187, 54);
     background-color: rgba(220, 220, 220, 0.15);
 }
 
