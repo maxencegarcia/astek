@@ -71,12 +71,12 @@ nav li:hover .submenu {
     background-color: rgba(220, 220, 220, 0.15);
 }
 
-.menu-jesaispas:hover {
+.menu-economie:hover {
     border-top: 5px solid rgb(9, 187, 54);
     background-color: rgba(220, 220, 220, 0.15);
 }
 
-.menu-achanger:hover {
+.menu-ecologie:hover {
     border-top: 5px solid rgb(9, 187, 54);
     background-color: rgba(220, 220, 220, 0.15);
 }
@@ -90,11 +90,11 @@ nav li:hover .submenu {
     background-color: rgb(9, 187, 54);
 }
 
-.menu-jesaispas .submenu {
+.menu-economie .submenu {
     background-color: rgb(9, 187, 54);
 }
 
-.menu-achanger .submenu {
+.menu-ecologie .submenu {
     background-color: rgb(9, 187, 54);
 }
 
@@ -111,11 +111,11 @@ nav li:hover .submenu {
     background-color: rgb(100, 250, 137);    /*couleur souris*/
 }
 
-.menu-jesaispas .submenu li:hover {
+.menu-economie .submenu li:hover {
     background-color: rgb(100, 250, 137);
 }
 
-.menu-achanger .submenu li:hover {
+.menu-ecologie .submenu li:hover {
     background-color: rgb(100, 250, 137);
 }
 
