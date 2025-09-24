@@ -1,4 +1,5 @@
-projet site Astek
+# Site de présentation Astek
+> Ce site permet de présenter l'entreprise Francaise Astek.
 
 Groupe 9
 
