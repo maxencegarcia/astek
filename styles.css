@@ -37,6 +37,67 @@ nav > ul {
 .equipe {
     text-align: center;
 }
+
+.homebody{
+      margin:0; 
+      font-family: 'source code pro', Calibri, serif;
+      background:#f8f9fc; /* Couleur fond claire */
+      
+    }
+
+
+    .homeheader{
+      background:rgb(0,199,86);
+      color:white; /* Couleur  txt */
+      padding:24px 48px; 
+      display:flex; 
+      justify-content:space-between; /* Espacement */
+      align-items:center; 
+    }
+    .homeheader .logo{
+      font-size:28px; 
+      font-weight:800; 
+      color:white;
+    }
+
+
+    .textebvn{
+      position:relative; 
+      text-align:center; 
+      padding:160px 20px; 
+      color:white; 
+      background-image: url(batA.png) ;  /* Image de fond */
+      background-size:cover; 
+      background-position:center;
+    }
+
+    /* Dégradé + flou  */
+    .textebvn::before{
+      content:""; 
+      position:absolute;
+      top:0; left:0; right:0; bottom:0; /* Recouvre toute la section */
+      background:linear-gradient(135deg,rgba(0,199,86,0.9),rgba(100,250,137,0.9)); /* Dégradé */
+
+    }
+
+    .textebvn h1,.textebvn p{
+      position:relative;
+      z-index:1; /* texte par desu */
+    }
+
+    /* titre prncipal */
+    .textebvn h1{
+      font-size:56px;
+      margin-bottom:24px;
+      font-weight:800;
+    }
+
+    .textebvn p{
+      font-size:22px;
+      max-width:800px;
+      margin:0 auto 32px;
+    }
+
 nav > ul::after {
     content: "";
     display: block;
@@ -157,5 +218,6 @@ video{
 div {
     margint: 10px;
 }
+
 
 
