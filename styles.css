@@ -14,7 +14,29 @@ nav > ul {
     padding: 0;
     list-style-type: none; /*por les puce chiante */
 }
+.cartecontact{
+    max-width: 500px;
+    max-height: 500px;
+}
+.tableaucontact{
+    width:40%;
+    border:solid  5px;
+    border-color: rgb(0, 199, 86);
+    border-collapse:collapse;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 200px;
 
+}
+
+.tableaucontact td {
+    border:solid rgb(0, 199, 86) 2px;
+    text-align: left;
+}
+.equipe {
+    text-align: center;
+}
 nav > ul::after {
     content: "";
     display: block;
@@ -135,4 +157,5 @@ video{
 div {
     margint: 10px;
 }
+
 
