@@ -38,65 +38,62 @@ nav > ul {
     text-align: center;
 }
 
-.homebody{
-      margin:0; 
-      font-family: 'source code pro', Calibri, serif;
-      background:#f8f9fc; /* Couleur fond claire */
-      
-    }
 
 
-    .homeheader{
-      background:rgb(0,199,86);
-      color:white; /* Couleur  txt */
-      padding:24px 48px; 
-      display:flex; 
-      justify-content:space-between; /* Espacement */
-      align-items:center; 
-    }
-    .homeheader .logo{
-      font-size:28px; 
-      font-weight:800; 
-      color:white;
-    }
+.homebody {
+  margin: 0;
+  font-family: 'Cantarell', sans-serif;
+  background: #f8f9fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.home-container {
+  flex: 1;
+  display: flex;
+  height: calc(100vh - 70px); 
+}
 
-    .textebvn{
-      position:relative; 
-      text-align:center; 
-      padding:160px 20px; 
-      color:white; 
-      background-image: url(batA.png) ;  /* Image de fond */
-      background-size:cover; 
-      background-position:center;
-    }
+.home-container .left {
+  flex: 1;
+  background: #001f54;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
 
-    /* Dégradé + flou  */
-    .textebvn::before{
-      content:""; 
-      position:absolute;
-      top:0; left:0; right:0; bottom:0; /* Recouvre toute la section */
-      background:linear-gradient(135deg,rgba(0,199,86,0.9),rgba(100,250,137,0.9)); /* Dégradé */
+.home-container .left h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
 
-    }
+.home-container .left p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
 
-    .textebvn h1,.textebvn p{
-      position:relative;
-      z-index:1; /* texte par desu */
-    }
+.home-container .btn {
+  padding: 12px 25px;
+  background: white;
+  color: #001f54;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
 
-    /* titre prncipal */
-    .textebvn h1{
-      font-size:56px;
-      margin-bottom:24px;
-      font-weight:800;
-    }
+}
 
-    .textebvn p{
-      font-size:22px;
-      max-width:800px;
-      margin:0 auto 32px;
-    }
+.home-container .btn:hover {
+  background: #f0f0f0;
+}
+
+.home-container .right {
+  flex: 1;
+  background: url(batA.png) no-repeat center/cover;
+}
 
 nav > ul::after {
     content: "";
@@ -145,65 +142,65 @@ nav li:hover .submenu {
     display: block;
     padding: 15px 30px;
     font-size: 13px;
-    color: #222538;          
+    color: #f5f5dc;          /*texte menu*/
     width: 270px;
 }
 
 .menu-html:hover {                                                        /*debut*/
-    border-top: 5px solid rgb(9, 187, 54);
+    border-top: 5px solid #001f54;
     background-color: rgba(220, 220, 220, 0.15);
 }
 
 .menu-economie:hover {
-    border-top: 5px solid rgb(9, 187, 54);
+    border-top: 5px solid #001f54;
     background-color: rgba(220, 220, 220, 0.15);
 }
 
-.menu-ecologie:hover {
-    border-top: 5px solid rgb(9, 187, 54);
+.menu-presentation:hover {
+    border-top: 5px solid #001f54;
     background-color: rgba(220, 220, 220, 0.15);
 }
 
 .menu-contact:hover {
-    border-top: 5px solid rgb(9, 187, 54);
+    border-top: 5px solid #001f54;
     background-color: rgba(220, 220, 220, 0.15);
 }                                                                         /*fin barre du dessus*/
 
 .menu-html .submenu {
-    background-color: rgb(9, 187, 54);
+    background-color: #001f54;
 }
 
 .menu-economie .submenu {
-    background-color: rgb(9, 187, 54);
+    background-color: #001f54;
 }
 
-.menu-ecologie .submenu {
-    background-color: rgb(9, 187, 54);
+.menu-presentation .submenu {
+    background-color: #001f54;
 }
 
 .menu-contact .submenu {
-    background-color: rgb(9, 187, 54);
+    background-color: #001f54;
 }
 
 .submenu li:hover a {
-    color: #000000;                        /*ecriture du bas a verif mais normalement c'est ça*/
+    color: #f5f5dc;                        /*ecriture du bas a verif mais normalement c'est ça*/
     font-weight: bold;
 }
 
 .menu-html .submenu li:hover {
-    background-color: rgb(100, 250, 137);    /*couleur souris*/
+    background-color: #d4a017;    /*couleur souris*/
 }
 
 .menu-economie .submenu li:hover {
-    background-color: rgb(100, 250, 137);
+    background-color: #d4a017;
 }
 
-.menu-ecologie .submenu li:hover {
-    background-color: rgb(100, 250, 137);
+.menu-presentation .submenu li:hover {
+    background-color: #d4a017;
 }
 
 .menu-contact .submenu li:hover {
-    background-color: rgb(100, 250, 137);
+    background-color: #d4a017;
 }
 .body_contact {
       font-family: Arial, sans-serif;
@@ -250,13 +247,6 @@ nav li:hover .submenu {
       height: 400px;
 }
 
-video{
-    height: 750px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
 
 div {
     margint: 10px;
