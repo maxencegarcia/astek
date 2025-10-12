@@ -353,6 +353,111 @@ nav li:hover .submenu {
   color: #d4a017;
   text-decoration: underline;
 }
+
+
+/*-------------------presentation--------------------*/
+
+.titreprincipaleprésentation{
+    display: flex;
+    justify-content: center;
+
+}
+
+.titresecondaireprésentation{
+    display: flex;
+    justify-content: center;
+
+}
+
+.textedutitre {
+    font-family: 'Cantarell'; 
+    font-size: 25px;
+    text-align: justify; 
+    margin: 20px 60px; 
+    margin-right: 250px
+}
+
+.digitaldatatxt {
+    font-family: 'Cantarell'; 
+    font-size: 25px;
+    
+}
+
+.digitaldata {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;                  
+    
+}
+
+.telecominfratxt {
+    font-family: 'Cantarell'; 
+    font-size: 25px;
+    
+}
+
+.telecominfra {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;                  
+    
+}
+
+.intelligentindustrytxt {
+    font-family: 'Cantarell'; 
+    font-size: 25px;
+    
+}
+
+.intelligentindustry {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;                  
+    
+}
+
+
+.imagetitrepresentation{
+     position: absolute;
+    top: 74px; 
+    right: 0px; 
+    width: 240px;
+    height: 250px;
+    margin: 0;
+}
+
+.sectactivite{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 130px;                  
+    
+}
+
+.univastek{
+    font-family: 'Cantarell'; 
+    font-size: 25px;
+    
+}
+
+.imgoffre{
+    width: 250px;
+    height: 250px;
+}
+
+.imgactivite{
+    width: 150px;
+    height: 150px;
+}
+
+.carteastek{
+    width: 100%;
+}
+
+.univastekimg{
+    width: 100%;
+}
+
 /* ------------------------ AUTRES ------------------------ */
 
 
@@ -362,4 +467,5 @@ footer {
   color: #f5f5dc;
   background-color: #001f54;
 }
+
 
