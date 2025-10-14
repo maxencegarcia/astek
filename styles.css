@@ -483,7 +483,6 @@ nav li:hover .submenu {
 
 .economie .bloc {
   flex: 1;
-  background-color: #f5f5dc;
   border-radius: 20px;
   padding: 25px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -497,6 +496,7 @@ nav li:hover .submenu {
 
 .economie .bloc.texte {
   max-width: 480px;
+  background-color: #f5f5dc;
 }
 
 .economie .bloc.image {
@@ -551,6 +551,7 @@ footer {
   color: #f5f5dc;
   background-color: #001f54;
 }
+
 
 
 
