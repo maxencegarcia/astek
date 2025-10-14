@@ -503,6 +503,7 @@ nav li:hover .submenu {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #001f54;
 }
 
 .economie .bloc.image img {
@@ -550,6 +551,7 @@ footer {
   color: #f5f5dc;
   background-color: #001f54;
 }
+
 
 
 
