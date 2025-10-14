@@ -464,7 +464,7 @@ nav li:hover .submenu {
   padding: 60px 5%;
   background-color: #f5f5dc;
   font-family: "Cantarel", sans-serif;
-  color: #ff0000;
+  color: #000000;
 }
 
 .economie .container {
@@ -550,6 +550,7 @@ footer {
   color: #f5f5dc;
   background-color: #001f54;
 }
+
 
 
 
