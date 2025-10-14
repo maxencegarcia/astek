@@ -458,8 +458,91 @@ nav li:hover .submenu {
     width: 100%;
 }
 
-/* ------------------------ AUTRES ------------------------ */
+/* ------------------------ éco ------------------------ */
 
+.economie {
+  padding: 60px 5%;
+  background-color: #121212;
+  font-family: "Cantarel", sans-serif;
+  color: #e6e6e6;
+}
+
+.economie .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.economie .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+.economie .bloc {
+  flex: 1;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  min-width: 0; 
+}
+
+.economie .bloc:hover {
+  transform: translateY(-4px);
+}
+
+.economie .bloc.texte {
+  max-width: 480px;
+}
+
+.economie .bloc.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.economie .bloc.image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.economie .bloc.texte h2 {
+  color: #5ab3ff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.economie .bloc.texte p {
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.economie .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 900px) {
+  .economie .row {
+    flex-direction: column;
+  }
+
+  .economie .bloc {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .economie .bloc.image img {
+    max-width: 100%;
+  }
+}
+
+/* ------------------------ AUTRES ------------------------ */
 
 footer {
   text-align: center;
@@ -467,5 +550,6 @@ footer {
   color: #f5f5dc;
   background-color: #001f54;
 }
+
 
 
