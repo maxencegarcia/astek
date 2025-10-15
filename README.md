@@ -19,6 +19,9 @@
 Ce dépôt correspond à un site web créé en **HTML / CSS / JavaScript** dans le cadre de la **SAÉ 05-06** à l’IUT de Belfort-Montbéliard.  
 Le site présente l’entreprise **Astek**, son activité, son organisation et son historique, dans le but de servir de vitrine professionnelle.
 
+Voici le rapport ecologique:
+![Capture rapport écologique ](https://github.com/maxencegarcia/testsiteweb/blob/main/image.png)
+
 ---
 
 ## 🎨 Choix de conception
